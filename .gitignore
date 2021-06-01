@@ -1,0 +1,11 @@
+bin/
+pkg/
+log/
+github.com/
+golang.org/
+.env
+.DS_Store
+main
+env.sh
+out/
+keys/
