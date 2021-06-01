@@ -35,7 +35,7 @@ func (resultCode ResultCode) HttpStatusCode() int {
 	case INVALID_AUTH_TOKEN:
 		return http.StatusUnauthorized
 	case WRONG_EMAIL_PASSWORD:
-		return http.StatusUnauthorized
+		return http.StatusForbidden
 	case USER_ALREADY_EXIST:
 		return http.StatusConflict
 	case USER_NOT_FOUND:
