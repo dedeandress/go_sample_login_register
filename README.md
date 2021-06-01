@@ -33,12 +33,11 @@ go build main.go
 ./main.go
 ```
 
-## Plugins
+## Dependency
 
-Go Sample Login Register is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
+Go Sample Login Register is currently extended with the following Dependency.
 
-| Plugin | README |
+| Dependency | URL |
 | ------ | ------ |
 | jwt-go | [github.com/dgrijalva/jwt-go/v4] |
 | validator | [github.com/go-playground/validator/v10] |
