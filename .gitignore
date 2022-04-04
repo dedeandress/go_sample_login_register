@@ -5,6 +5,7 @@ github.com/
 golang.org/
 .env
 .DS_Store
+.idea/
 main
 env.sh
 out/
